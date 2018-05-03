@@ -1,0 +1,30 @@
+#Imported Libraries
+import MySQLdb
+import math
+import os
+
+#Connect into DB
+#db = MySQLdb.connect("ENDPOINT", "AMAZON USERNMAE", "AMAZON PASSWORD (may just be db instance pw", "Name of database")
+#curs = db.cursor()
+
+#Check to see if Text File Exists
+m = 1.0
+pathToFile = 'C:\\Users\\Drew Noren\\Documents\\Processing\\sketch_180417a\\externalTempValues.txt'
+os.path.exists(pathToFile)
+
+#How now to open
+#with open(path,'f') as f
+    #for line in f:
+        #m = float(line)
+        #try:
+            #Execute Command
+           # curs.execute("INSERT into TABLENAME (externalBodyTemp) VALUES (%d)" % (m))
+           # db.commit()
+           # print("Data Committed")
+
+        #except:
+           # print("Error")
+            #db.rollback()
+           
+#curs.close()
+#db.close()
